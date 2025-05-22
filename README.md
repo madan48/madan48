@@ -1,25 +1,35 @@
-<!-- Kali Linux Themed GitHub Profile README for madan48 -->
+<!-- Kali Linux Interactive, Terminal-Style Profile README -->
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kali-dragon-icon.svg" width="120" alt="Kali Linux Dragon" />
+  <!-- Kali Linux Banner with background image (hosted externally) -->
+  <img src="https://raw.githubusercontent.com/adi1090x/files/master/wallpapers/kalilinux/kalilinux_5.jpg" width="100%" alt="Kali Linux Background Banner" style="border-radius: 8px;"/>
 </p>
 
-<h1 align="center" style="color:#2689d4;">
-  🐉 madan48 — Cybersecurity Projects
-</h1>
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kali-dragon-icon.svg" width="110" alt="Kali Linux Dragon" />
+</p>
+
+<!-- Terminal-style Intro -->
+<div align="center">
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Mono&size=25&pause=1000&color=2689D4&center=true&vCenter=true&width=700&lines=Welcome+to+madan48's+Cybersecurity+Lab;Kali+Linux+Themed+Portfolio;Ethical+Hacking+%7C+Red+Teaming+%7C+Forensics" alt="Typing SVG" />
+  
+</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Hacker-Cybersecurity-blue?style=flat-square&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-Kali-blueviolet?style=flat-square&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Offensive Security-Tools-critical?style=flat-square&logo=gnometerminal&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hacker%20Mode-ON-2689d4?style=for-the-badge&logo=kalilinux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-Kali-222222?style=for-the-badge&logo=linux&logoColor=2689d4"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=signal"/>
 </p>
 
 ---
 
-## 👋 About Me
+<pre>
+┌──(madan48㉿kali)-[~/cyber-lab]
+└─$ whoami
 
-Hi! I'm **madan48**, a passionate cybersecurity enthusiast and Kali Linux power user.  
-This is my cyber playground—here you'll find a curated collection of my projects, tools, and write-ups focused on ethical hacking, penetration testing, and digital forensics.
+<span style="color:#2689d4;font-weight:bold;">Cybersecurity Enthusiast | Penetration Tester | Linux Geek</span>
+</pre>
 
 ---
 
@@ -28,25 +38,24 @@ This is my cyber playground—here you'll find a curated collection of my projec
 | Project | Description | Tech/Tools |
 |---------|-------------|------------|
 | [NetworkScanner](https://github.com/madan48/NetworkScanner) | A Python-based network reconnaissance & vulnerability scanner | `Python`, `Nmap`, `Scapy` |
-| [RedTeamOps](https://github.com/madan48/RedTeamOps) | Collection of custom exploits and C2 scripts for red teaming | `Bash`, `Metasploit`, `PowerShell` |
-| [ForensicSuite](https://github.com/madan48/ForensicSuite) | A toolkit for digital forensics & incident response | `Autopsy`, `Volatility`, `Python` |
+| [RedTeamOps](https://github.com/madan48/RedTeamOps) | Custom exploits and C2 scripts for red teaming | `Bash`, `Metasploit`, `PowerShell` |
+| [ForensicSuite](https://github.com/madan48/ForensicSuite) | Toolkit for digital forensics & incident response | `Autopsy`, `Volatility`, `Python` |
 | [WebPentest](https://github.com/madan48/WebPentest) | Automated web application pentesting scripts | `Burp Suite`, `ZAP`, `SQLmap` |
 
-> ⚡ **Explore my pinned repos for more!**
+> ⚡ **[Click here for all projects ⬇️](https://github.com/madan48?tab=repositories)**
 
 ---
 
 ## 🛠️ Tools & Skills
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=flat&logo=gnubash&logoColor=white)
 ![Metasploit](https://img.shields.io/badge/Metasploit-333366?style=flat&logo=metasploit&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat&logo=nmap&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-222222?style=flat&logo=linux&logoColor=2689d4)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6600?style=flat&logo=burpsuite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-2689d4?style=flat&logo=kalilinux&logoColor=white)
-
-> 🕵️‍♂️ Also skilled in: Linux, Docker, Git, CTFs, Reverse Engineering, OSINT
 
 ---
 
@@ -58,17 +67,24 @@ This is my cyber playground—here you'll find a curated collection of my projec
 
 ---
 
-## 📫 Contact & Socials
+## 📫 Connect with Me
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourhandle)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your.email@domain.com)
-[![Website](https://img.shields.io/badge/Portfolio-222222?style=flat&logo=firefox-browser&logoColor=white)](https://yourwebsite.com)
+<p align="center">
+  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/yourhandle"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:your.email@domain.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://yourwebsite.com"><img src="https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=firefox-browser&logoColor=white"/></a>
+</p>
 
 ---
 
+<pre>
+┌──(madan48㉿kali)-[~/cyber-lab]
+└─$ echo "Hack the Planet 🐉"
+</pre>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Hack%20the%20Planet-000000?style=for-the-badge&logo=kalilinux&logoColor=2689d4" />
+  <img src="https://img.shields.io/badge/Rooted-in%20Kali%20Linux-2689d4?style=for-the-badge&logo=kalilinux&logoColor=white"/>
 </p>
 
 > _"The quieter you become, the more you are able to hear."_  
