@@ -1,1 +1,119 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>madan48 | Kali Linux Themed Portfolio</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kali-dragon-icon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: url('https://raw.githubusercontent.com/adi1090x/files/master/wallpapers/kalilinux/kalilinux_5.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #e0e0e0;
+      font-family: 'Fira Mono', 'Consolas', monospace;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .overlay {
+      background: rgba(0,0,0,0.7);
+      min-height: 100vh;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .terminal {
+      background: #232323cc;
+      border-radius: 8px;
+      box-shadow: 0 2px 20px #0009;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    .terminal-header {
+      color: #2689d4;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+    .terminal-line {
+      font-size: 1.1rem;
+      margin: 0.5em 0;
+    }
+    .prompt {
+      color: #6eff6e;
+      font-weight: bold;
+    }
+    .project-list {
+      margin: 2rem 0 1rem 2rem;
+    }
+    .project-list li {
+      margin-bottom: 0.7rem;
+      font-size: 1.1rem;
+    }
+    a {
+      color: #2689d4;
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #6eff6e;
+    }
+    .socials {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .socials a {
+      margin: 0 0.8rem;
+      display: inline-block;
+    }
+    .kali-dragon {
+      width: 110px;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+    @media (max-width: 600px) {
+      .container, .terminal {
+        padding: 0.5rem;
+      }
+      .terminal-header {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kali-dragon-icon.svg" class="kali-dragon" alt="Kali Linux Dragon" />
+      <div class="terminal">
+        <div class="terminal-header">madan48@kali:~$ Cybersecurity Projects Portfolio</div>
+        <div class="terminal-line prompt">┌──(madan48㉿kali)-[~/cyber-lab]</div>
+        <div class="terminal-line prompt">└─$ whoami</div>
+        <div class="terminal-line">Cybersecurity Enthusiast | Penetration Tester | Linux Geek</div>
+        <div class="terminal-line prompt" style="margin-top:1.5em;">└─$ ls projects/</div>
+        <ul class="project-list">
+          <li><a href="https://github.com/madan48/NetworkScanner" target="_blank">NetworkScanner</a> <span style="color:#aaa;">- Python network recon & vulnerability scanner</span></li>
+          <li><a href="https://github.com/madan48/RedTeamOps" target="_blank">RedTeamOps</a> <span style="color:#aaa;">- Custom exploits & C2 scripts for red teaming</span></li>
+          <li><a href="https://github.com/madan48/ForensicSuite" target="_blank">ForensicSuite</a> <span style="color:#aaa;">- Digital forensics & incident response toolkit</span></li>
+          <li><a href="https://github.com/madan48/WebPentest" target="_blank">WebPentest</a> <span style="color:#aaa;">- Automated web app pentesting scripts</span></li>
+        </ul>
+        <div class="terminal-line prompt" style="margin-top:1.5em;">└─$ echo 'Contact & Socials'</div>
+        <div class="socials">
+          <a href="https://twitter.com/yourhandle" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+          <a href="https://linkedin.com/in/yourhandle" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+          <a href="mailto:your.email@domain.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2em;color:#aaa;">
+        <em>"The quieter you become, the more you are able to hear." — Kali Linux</em>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
