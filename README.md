@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- Kali Linux Banner with background image (hosted externally) -->
-  <img src="https://raw.githubusercontent.com/adi1090x/files/master/wallpapers/kalilinux/kalilinux_5.jpg" width="100%" alt="Kali Linux Background Banner" style="border-radius: 8px;"/>
+  <img src="[https://raw.githubusercontent.com/adi1090x/files/master/wallpapers/kalilinux/kalilinux_5.jpg](https://raw.githubusercontent.com/dorianpro/kaliwallpapers/master/kali-linux-wallpaper-v8.png)" width="100%" alt="Kali Linux Background Banner" style="border-radius: 8px;"/>
 </p>
 
 <p align="center">
