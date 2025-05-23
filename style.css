@@ -1,56 +1,95 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  min-height: 100vh;
   background: url('kali.png') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Fira Mono', 'Consolas', monospace;
   color: #e0e0e0;
 }
+
 .overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.68);
   min-height: 100vh;
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.terminal {
+  max-width: 800px;
+  margin: 2rem;
+  padding: 2.5rem;
+  background: rgba(34, 34, 34, 0.90);
+  border-radius: 14px;
+  box-shadow: 0 4px 28px #000a;
 }
+
 .kali-dragon {
-  width: 100px;
+  width: 90px;
   display: block;
   margin: 0 auto 1rem auto;
 }
+
 h1, h2 {
   color: #2689d4;
+  margin-bottom: 0.7em;
   text-align: center;
 }
+
 pre {
   color: #6eff6e;
   background: none;
-  font-size: 1.05rem;
+  font-size: 1.07rem;
+  margin: 1.2em 0;
 }
+
 ul {
   list-style-type: square;
-  margin-left: 2rem;
+  margin-left: 2em;
 }
+
+li {
+  margin-bottom: 0.7rem;
+  font-size: 1.09rem;
+}
+
 a {
-  color: #2689d4;
+  color: #53a8e2;
   text-decoration: none;
+  transition: color 0.2s;
 }
 a:hover {
   color: #6eff6e;
   text-decoration: underline;
 }
+
 .socials {
   text-align: center;
-  margin: 1.5rem 0;
+  margin: 2rem 0 1rem 0;
 }
+.socials a {
+  margin: 0 0.7rem;
+}
+
 footer {
-  margin-top: 2em;
-  color: #aaa;
+  margin-top: 2.5em;
+  color: #b5b5b5;
+  font-size: 0.98rem;
+  letter-spacing: 0.01em;
   text-align: center;
-  font-size: 0.95rem;
 }
-@media (max-width: 600px) {
-  .terminal { padding: 1rem; }
-  .kali-dragon { width: 60px; }
+
+@media (max-width: 650px) {
+  .terminal {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  .kali-dragon {
+    width: 56px;
+  }
+  ul {
+    padding-left: 1em;
+  }
 }
