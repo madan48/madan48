@@ -5,15 +5,24 @@
   <title>Madan Ghimire| Cybersecurity Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <style>
+    #typed2::after {
+      content: '|';
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+  </style>
 </head>
 <body>
   <div class="overlay">
-    <main class="terminal">
-      <img src="kali.png" class="kali-dragon" alt="Kali Linux Dragon"/>
-      <h1>madan@kali:~$ Cybersecurity Portfolio</h1>
-      <pre>
-Cybersecurity Enthusiast | Security Researcher
-      </pre>
+    <main>
+      
+      <h1><span id="typed"></span></h1>
+      <span id="typed2" style="color: #39ff14; font-family: 'Fira Mono', monospace; font-size: 1.3em;"></span>
+      
       <h2>Projects</h2>
       <ul>
         <li><a href="https://github.com/madan48/NetworkScanner" target="_blank">NetworkScanner</a> - Python network recon & vulnerability scanner</li>
@@ -32,5 +41,23 @@ Cybersecurity Enthusiast | Security Researcher
       </footer>
     </main>
   </div>
+  <script>
+  const text = "madan@kali:~$ Cybersecurity Portfolio";
+  const text2 = "Cybersecurity Enthusiast | Security Researcher";
+  let i = 0, j = 0;
+
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById("typed").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, 60);
+    } else if (j < text2.length) {
+      document.getElementById("typed2").innerHTML += text2.charAt(j);
+      j++;
+      setTimeout(typeWriter, 40);
+    }
+  }
+  window.onload = typeWriter;
+</script>
 </body>
 </html>
