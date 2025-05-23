@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- Kali Linux Banner with background image (hosted externally) -->
-  <img src="https://raw.githubusercontent.com/dorianpro/kaliwallpapers/master/kali-linux-wallpaper-v8.png" width="100%" alt="Kali Linux Background Banner" style="border-radius: 8px;"/>
+  <img src="https://raw.githubusercontent.com/adi1090x/files/master/wallpapers/kalilinux/kalilinux_5.jpg" width="100%" alt="Kali Linux Background Banner" style="border-radius: 8px;"/>
 </p>
 
 <p align="center">
@@ -11,7 +11,9 @@
 
 <!-- Terminal-style Intro -->
 <div align="center">
+  
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Mono&size=25&pause=1000&color=2689D4&center=true&vCenter=true&width=700&lines=Welcome+to+madan48's+Cybersecurity+Lab;Kali+Linux+Themed+Portfolio;Ethical+Hacking+%7C+Red+Teaming+%7C+Forensics" alt="Typing SVG" />
+  
 </div>
 
 <p align="center">
