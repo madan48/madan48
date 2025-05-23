@@ -1,18 +1,8 @@
-<!-- Kali Linux Interactive, Terminal-Style Profile README -->
-
-<p align="center">
-  <!-- Kali Linux Banner with background image (hosted externally) -->
-  <img src="https://raw.githubusercontent.com/adi1090x/files/master/wallpapers/kalilinux/kalilinux_5.jpg" width="100%" alt="Kali Linux Background Banner" style="border-radius: 8px;"/>
-</p>
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kali-dragon-icon.svg" width="110" alt="Kali Linux Dragon" />
-</p>
 
 <!-- Terminal-style Intro -->
 <div align="center">
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Mono&size=25&pause=1000&color=2689D4&center=true&vCenter=true&width=700&lines=Welcome+to+madan48's+Cybersecurity+Lab;Kali+Linux+Themed+Portfolio;Ethical+Hacking+%7C+Red+Teaming+%7C+Forensics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Mono&size=25&pause=1000&color=2689D4&center=true&vCenter=true&width=700&lines=Welcome+to+madan's+Cybersecurity+Lab;Ethical+Hacking+%7C+Red+Teaming+%7C+Forensics" alt="Typing SVG" />
   
 </div>
 
@@ -25,10 +15,10 @@
 ---
 
 <pre>
-┌──(madan48㉿kali)-[~/cyber-lab]
+┌──(madanGh㉿kali)-[~/cyber-lab]
 └─$ whoami
 
-<span style="color:#2689d4;font-weight:bold;">Cybersecurity Enthusiast | Penetration Tester | Linux Geek</span>
+<span style="color:#2689d4;font-weight:bold;">Cybersecurity Enthusiast | IT Support Engineer | System Administrator </span>
 </pre>
 
 ---
