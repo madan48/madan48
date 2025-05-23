@@ -3,33 +3,99 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kali Linux Landing Page</title>
+  <title>Madan48 | Cybersecurity Portfolio</title>
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Courier New', Courier, monospace;
       background-image: url('kali.png');
       background-size: cover;
       background-position: center;
+      background-repeat: no-repeat;
       height: 100vh;
-      color: white;
-      font-family: sans-serif;
+      color: #00ff00;
+      text-shadow: 1px 1px 3px black;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      text-shadow: 1px 1px 3px black;
+      justify-content: center;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
     }
     h1 {
       font-size: 3rem;
     }
-    p {
+    p.tagline {
       font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      margin: 2rem 0;
+    }
+    nav a {
+      color: #00ff00;
+      text-decoration: none;
+      margin: 0 1rem;
+      border: 1px solid #00ff00;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #00ff00;
+      color: black;
+    }
+    section {
+      max-width: 800px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    footer {
+      margin-top: auto;
+      text-align: center;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My GitHub</h1>
-  <p>Kali Linux Enthusiast | Ethical Hacking | Cybersecurity</p>
+  <header>
+    <h1>Madan Ghimire</h1>
+    <p class="tagline">Cybersecurity Enthusiast | Penetration Tester | Linux Geek</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am passionate about cybersecurity, ethical hacking, and digital forensics. I specialize in penetration testing, Linux-based tools, and networking. This portfolio showcases my journey and the tools I use to break and secure systems.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>More coming soon... Stay tuned!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: madanghimire@example.com</p>
+    <p>GitHub: <a href="https://github.com/madan48" target="_blank" style="color: #00ff00; text-decoration: underline;">madan48</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Madan Ghimire. Built with 💻 on GitHub Pages.</p>
+  </footer>
 </body>
 </html>
